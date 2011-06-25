@@ -1,4 +1,10 @@
 Isvael::Application.routes.draw do
+  match "services" => "services#index"
+
+  match "products" => "products#index"
+  get "products/dvd"
+  get "products/poster"
+
   get "home/index"
 
   # The priority is based upon order of creation:
