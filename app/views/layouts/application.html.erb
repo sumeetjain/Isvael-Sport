@@ -54,9 +54,9 @@
 				<li class=""><a href="#"><%=t 'nav.contact' %></a></li>
 				<li id="lingoLink" class="">
 					<% if I18n.locale == 'es' %>
-						<a href="http://isvael.heroku.com"><%=t 'nav.lingoLink' %></a>
+						<a href="http://isvael.heroku.com" title="<%= I18n.locale %>"><%=t 'nav.lingoLink' %></a>
 					<% else %>
-						<a href="http://es.isvael.com"><%=t 'nav.lingoLink' %></a>
+						<a href="http://es.isvael.com" title="<%= I18n.locale %>"><%=t 'nav.lingoLink' %></a>
 					<% end %>
 				</li>
 			</ul>
