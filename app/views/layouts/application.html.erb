@@ -53,7 +53,7 @@
 				<li class=""><a href="#"><%=t 'nav.gallery' %></a></li>
 				<li class=""><a href="#"><%=t 'nav.contact' %></a></li>
 				<li id="lingoLink" class="">
-					<% if I18n.locale == 'es' %>
+					<% if I18n.locale.to_s == 'es' %>
 						<a href="http://isvael.heroku.com">In English</a>
 					<% else %>
 						<a href="http://es.isvael.com">En Español</a>
