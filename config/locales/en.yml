@@ -3,3 +3,13 @@
 
 en:
   hello: "Hello world"
+  nav:
+    home: "Home"
+    about: "About"
+    products: "Products"
+    services: "Services"
+    events: "Events"
+    news: "News"
+    gallery: "Gallery"
+    contact: "Contact"
+    lingoLink: "En Español"

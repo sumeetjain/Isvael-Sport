@@ -44,15 +44,15 @@
 	<header>
 		<nav>
 			<ul class="container">
-				<li class="<%= "current" if "#{controller.controller_name}/#{controller.action_name}" == "home/index" %>"><a href="/">Home</a></li>
-				<li class=""><a href="#">About</a></li>
-				<li class="<%= "current" if "#{controller.controller_name}" == "products" %>"><a href="/products">Products</a></li>
-				<li class="<%= "current" if "#{controller.controller_name}" == "services" %>"><a href="/services">Services</a></li>
-				<li class=""><a href="#">Events</a></li>
-				<li class=""><a href="#">News</a></li>
-				<li class=""><a href="#">Gallery</a></li>
-				<li class=""><a href="#">Contact</a></li>
-				<li id="lingoLink" class=""><a href="#">En Español</a></li>
+				<li class="<%= "current" if "#{controller.controller_name}/#{controller.action_name}" == "home/index" %>"><a href="/"><%=t 'nav.home' %></a></li>
+				<li class=""><a href="#"><%=t 'nav.about' %></a></li>
+				<li class="<%= "current" if "#{controller.controller_name}" == "products" %>"><a href="/products"><%=t 'nav.products' %></a></li>
+				<li class="<%= "current" if "#{controller.controller_name}" == "services" %>"><a href="/services"><%=t 'nav.services' %></a></li>
+				<li class=""><a href="#"><%=t 'nav.events' %></a></li>
+				<li class=""><a href="#"><%=t 'nav.news' %></a></li>
+				<li class=""><a href="#"><%=t 'nav.gallery' %></a></li>
+				<li class=""><a href="#"><%=t 'nav.contact' %></a></li>
+				<li id="lingoLink" class=""><a href="#"><%=t 'nav.lingoLink' %></a></li>
 			</ul>
 			
 			<a id="logo" href="/"><%= image_tag('global/logo.png', :alt => 'IsVael Sport') %></a>
