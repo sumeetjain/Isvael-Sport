@@ -1,5 +1,4 @@
-# Sample localization file for English. Add more files in this directory for other locales.
-# See http://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
+# English
 
 en:
   homepage:
@@ -23,3 +22,41 @@ en:
     news: "News"
     gallery: "Gallery"
     contact: "Contact"
+  about:
+    bold_intro: "IsVael Sport's coaches are beyond highly qualified."
+    intro: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    val:
+      intro: "My name is Valerie Gotay. I am a 5th degree black belt and 2x Olympian in the sport of judo and a purple belt in Brazilian jujitsu. I am also a mother of 2 and a certified NASM (National Association of Sports Medicine) personal trainer."
+      p1: "I have been involved in sport my whole life.  I started judo at the age of four.  I was trained by my father, Gerald Lafon, who now runs Judo America San Diego.  My first competition was at age six.  I won my first of twelve junior national titles at age seven and by thirteen I was traveling the world with the US national judo team.  By age fifteen I had won my first Senior national title and in 1992, at 18 years old, I made my first Olympic team.  I then retired from competition and decided to focus on my studies.  I attended Miramar College then transferred to San Diego State, where I majored in psychology.  In 2004, twelve years later, I made a comeback and in 2008, I made my second Olympic team, just a few months shy of 35!"
+      p2: "Upon returning from the 2008 Olympics, I decided to use my experience and knowledge to help others achieve their fitness goals by becoming a personal trainer.  I got my first start as a trainer working at 24 Hr Fitness. In 2009, I began training people out of my home, where I felt I could better meet my clients needs.  In 2010, Israel Hernandez and I decided to combine our knowledge, experience and passion, and open up SoCal Judo."
+      list:
+        item0: "1992 and 2008 U.S. Olympian"
+        item1: "1991, 2005 and 2007 U.S. World Championships Team Member"
+        item2: "1990 U.S. Junior World Championships Team Member"
+        item3: "1991 and 2007 Pan American Games silver medalist"
+        item4: "Medaled 39 times in international competition, including 19 golds!"
+        item5: "8-time senior national champion"
+        item6: "12-time junior national champion"
+        item7: "3-time U.S. Olympic Festival champion"
+        item8: '"Outstanding Female Competitor", 2005 Pan American Championships'
+        item9: '"Fair Play" award, 2007 Pan American Championships'
+        item10: '"Outstanding Female Competitor", 2008 Pan American Championships'
+        item11: 'U.S. Olympic Committee "Female Athlete of the Year" for Judo in 1991'
+    israel:
+      intro: "My name is Israel Hernandez.  I was born in Santiago de Cuba, Cuba in 1970.  I started judo at the age of 6 and by 17 years old, I was admitted into the Olympic program in Havana, Cuba.  From 1987 to 1998 I competed for Cuba, earning countless international medals, including 2 Olympic bronze medals in 1992 and 1996."
+      p1: "Upon retiring from competition in 1998, I accepted my first coaching position at the Olympic Training Center in Barcelona, Spain.  I would later go on to coach various teams, including, the Puerto Rican national judo team, the Harlingen, Texas National Training Site team and finally the 2008 US Olympic judo team.  From 2009-2011, I worked as a methodologist for Puerto Rico's elite athlete program. and was the strength and conditioning and judo coach to MMA fighter Sokoudjou a.k.a The African Assassin."
+      p2: "I hold a Master's degree in kinesiology and a Bachelor's degree in psychological variables in the elite athlete.  I am passionate about coach education in sport and believe today's coaches must be educated in all aspects of training, including training methodology, strength and conditioning, sports psychology, nutrition and supplementation, injury prevention and recovery and recuperation."
+      list:
+        item0: "1992 and 1996 Olympic Games bronze medalist"
+        item1: "1991, 1993, 1995, 1997 World Championships Team Member"
+        item2: "1990 Junior World silver medalist"
+        item3: "Three time Pan American Games medalist"
+        item4: "Assistant coach for the Cuban men's 2000 Olympic Team"
+        item5: "Head coach Puerto Rican national judo team 2000-2005"
+        item6: "Head coach Harlingen national judo training site 2006-2008"
+        item7: "Head coach US women's Olympic judo team"
+        item8: "Judo coach to MMA fighter Sokoudjou"
+  israel:
+    video1: "Israel winning the Bronze Medal at the 1992 Olympics"
+    video2: "Trailer for our instructional DVD"
+    dvd_info: "For more details about our instructional DVD or to place an order, click here."
