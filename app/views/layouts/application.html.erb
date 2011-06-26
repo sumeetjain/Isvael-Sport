@@ -45,7 +45,7 @@
 		<nav>
 			<ul class="container">
 				<li class="<%= "current" if "#{controller.controller_name}/#{controller.action_name}" == "home/index" %>"><a href="/"><%=t 'nav.home' %></a></li>
-				<li class=""><a href="#"><%=t 'nav.about' %></a></li>
+				<li class="<%= "current" if "#{controller.controller_name}" == "about" %>"><a href="/about"><%=t 'nav.about' %></a></li>
 				<li class="<%= "current" if "#{controller.controller_name}" == "products" %>"><a href="/products"><%=t 'nav.products' %></a></li>
 				<li class="<%= "current" if "#{controller.controller_name}" == "services" %>"><a href="/services"><%=t 'nav.services' %></a></li>
 				<li class=""><a href="#"><%=t 'nav.events' %></a></li>

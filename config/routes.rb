@@ -1,4 +1,8 @@
 Isvael::Application.routes.draw do
+  match "about" => 'about#index'
+  get "about/valerie_gotay"
+  get "about/israel_hernandez"
+
   match "services" => "services#index"
 
   match "products" => "products#index"
