@@ -1,2 +1,49 @@
-<h1><%=t :hello %></h1>
-<p>Find me in app/views/home/index.html.erb</p>
+<div class="container">
+	<h1><%=t 'homepage.h1' %></h1>
+	<h2><%=t 'homepage.h2' %></h2>
+	
+	<div id="featured" class="clearfix">
+		<a class="feature" href="#">
+			<%= image_tag('home/clinics.jpg', :alt => '') %> 
+			<span class="highlighted"><%=t 'homepage.features.clinics' %></span>
+		</a>
+		
+		<a class="feature" id="middleFeature" href="#">
+			<%= image_tag('home/coaches.jpg', :alt => '') %> 
+			<span class="highlighted"><%=t 'homepage.features.instruction' %></span>
+		</a>
+		
+		<a class="feature" href="#">
+			<%= image_tag('home/coaches.jpg', :alt => '') %> 
+			<span class="highlighted"><%=t 'homepage.features.event' %></span>
+		</a>
+	</div>
+</div>
+
+<div class="announcement">
+	<div class="heading"><%=t 'homepage.announcement.heading' %>: 7/4/2011</div>
+	<h3><a href="#">Join us at Mission Beach for a day of a Judo games in the sun!</a></h3>
+	<a href="#"><%=t 'homepage.announcement.more' %></a>
+	
+	<div class="snLinks">
+		<%= link_to image_tag('global/twitter.png', :alt => "Twitter"), "http://twitter.com/isvaelsport", :class => 'snLink' %>
+		<%= link_to image_tag('global/facebook.png', :alt => "Facebook"), "http://facebook.com/isvaelsport", :class => 'snLink' %>
+	</div>
+</div>
+
+<div class="container clearfix" id="dvd">
+	<h4><%=t 'homepage.h4' %></h4>
+	
+	<div id="trailer">
+		<iframe width="560" height="349" src="http://www.youtube.com/embed/IvFB37wFgrM?rel=0" frameborder="0" allowfullscreen></iframe>
+	</div>
+	
+	<a id="poster" href="#">
+		<span class="highlighted"><%=t 'homepage.dvd' %></span>
+		<%= image_tag('home/dvd.png', :alt => '') %>
+		
+		<div id="paypalButton">
+			<%= image_tag('global/buyNow.gif', :alt => 'Buy Now') %>
+		</div>
+	</a>
+</div>

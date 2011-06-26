@@ -1,0 +1,61 @@
+span.highlighted{
+	text-transform: uppercase;
+	color: #fff;
+	background: #009ad9;
+	border-top: 1px solid #236195;
+	padding: 3px 5px;
+	position: relative;
+	top: 9px;
+	font-size: 12px;
+}
+a:hover span.highlighted{
+	background: #2EA6F8;
+}
+
+.feature{
+	line-height: 0;
+	float: left;
+}
+#middleFeature{
+	margin: 0 35px 52px;
+}
+.feature img,
+#dvd #poster img{
+	border: 1px solid #666;
+	display: block;
+}
+
+#dvd h4{
+	text-align: center;
+	padding-top: 20px;
+}
+#dvd #trailer{
+	width: 565px;
+	border-right: 1px solid #ccc;
+	padding-right: 49px;
+	float: left;
+}
+#dvd #poster{
+	display: block;
+	width: 183px;
+	float: right;
+	padding-top: 5px;
+	text-align: right;
+}
+#dvd #poster span.highlighted{
+	border-top: 0;
+	border-bottom: 1px solid #236195;
+	top: -3px;
+}
+#dvd #poster #paypalButton{
+	text-align: right;
+	padding: 7px 18px 0 0;
+}
+#dvd #poster #paypalButton img{
+	border: none;
+	display: inline;
+}
+
+#dvd #poster:hover, .feature:hover{
+	text-decoration: none;
+}

@@ -2,7 +2,18 @@
 # See http://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
 
 en:
-  hello: "Hello world"
+  homepage:
+    h1: "Resources for martial artists, grapplers, and combative athletes."
+    h2: "IsVael Sport is a California-based business that specializes in educating and instructing combative athletes through DVDs, Clinics, Camps and Tours."
+    features:
+      clinics: "Clinics"
+      instruction: "Olympic-Class Instruction"
+      event: "Events World-Wide"
+    announcement:
+      heading: "Latest Announcement"
+      more: "Learn more"
+    h4: "Everything You Should Know About Seoi Nage DVD, with Israel Hernandez"
+    dvd: "DVD On Sale Now!"
   nav:
     home: "Home"
     about: "About"

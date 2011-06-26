@@ -24,15 +24,26 @@ p{
 	line-height: 1.4;
 }
 
-h1 a:hover,
-h2 a:hover,
-h3 a:hover,
-h4 a:hover,
-h5 a:hover,
-h6 a:hover{
-	color: #3bb44a;
-	text-decoration: none;
-	text-shadow: #888 1px 0 1px;
+h1{
+	font-size: 27px;
+	letter-spacing: -1px;
+	margin-top: 10px;
+}
+
+h2{
+	font-family: Georgia, serif;
+	font-size: 23px;
+	font-weight: normal;
+	color: #444;
+}
+h3{
+	font-family: Georgia, serif;
+	font-weight: normal;
+	color: #560029;
+	font-size: 19px;
+}
+h4{
+	font-size: 19px;
 }
 
 p{
@@ -78,10 +89,10 @@ dd{
 	margin: 0 auto;
 }
 #content{
+	width: 880px; /* Should equal `.container width` + 30px */
 	background: rgba(255, 255, 255, 0.90);
-	padding: 10px 15px;
-	margin-top: 25px;
-	margin-bottom: 60px;
+	padding: 10px 0;
+	margin: 25px auto 60px;
 	box-shadow: #000 0 3px 8px;
 	-webkit-box-shadow: #000 0 3px 8px;
 }
@@ -125,4 +136,38 @@ nav li#lingoLink a{
 	right: 50%;
 	margin-right: -430px;
 	top: 6px;
+}
+
+.announcement{
+	position: relative;
+	background: url(/images/global/announcementBg.jpg) no-repeat top left;
+	border: solid #c16b94;
+	border-width: 1px 0;
+	padding: 5px 15px;
+	margin: 0 0 20px;
+}
+.announcement .heading{
+	color: #e3056f;
+	text-transform: uppercase;
+	font-size: 10px;
+	font-weight: bold;
+}
+.announcement h3{
+	margin: 4px 0 0;
+	padding: 0;
+}
+.announcement a{
+	text-transform: lowercase;
+	color: #943965;
+	font-size: 10px;
+}
+.announcement h3 a{
+	text-transform: none;
+	color: #560029;
+	font-size: 19px;
+}
+.announcement .snLinks{
+	position: absolute;
+	bottom: 0px;
+	right: 5px;
 }
