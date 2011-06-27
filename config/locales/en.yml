@@ -65,13 +65,32 @@ en:
   products:
     dvd:
       title: "Everything Your Should Know About Seoi Nage DVD"
-      intro: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
-      p1: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-      p2: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      intro: "If you're tired of spending good money for a DVD that includes more fluff and filler than relevant content, get ready for the revolutionary Everything You Should Know About series.  Two-time Olympians Israel Hernandez and Valerie Lafon Gotay have teamed up to develop this sweeping DVD series."
+      p1: "Each volume in the series, shot in HD, offers a comprehensive study and examination of a single technique using slow motion and various angles: grips, common mistakes, variations, defenses, counters, combinations, fusion techniques, and supplemental exercises."
+      p2: "Seoi Nage is the first DVD in the series.  Look out for others to follow and more exciting projects from Isvael Sport!"
+      material_covered:
+        title: "Material covered in this DVD includes:"
+        list:
+          item0: "5 types of grips"
+          item1: "11 Counters"
+          item2: "9 types of Seois"
+          item3: "8 Combinations"
+          item4: "6 Most Common Mistakes"
+          item5: "6 Fusion Techniques"
+          item6: "8 Defenses"
+          item7: "20+ Supplemental Exercises"
+      seoi_history:
+        title: "History of Seoi"
+        p0: 'It has been and still is one of the most popular and highest scoring techniques seen in competition: Seoi-nage.  It is one of the most used throws in elite  judo competition.  It is classified as a hand technique, Te-waza, and involves throwing an opponent over the shoulder.  Seoi-nage is most commonly referred to as "shoulder throw."'
+        p1: "Seoi comes from a verb meaning to carry on the back and this can help us in picturing how the technique should be done. Imagine a man wanting to unload a heavy sack of coal from the low back of a truck. He grasps the top corners of the sack turns round and sinking down hoists the sack on to his back. This is the action of seoi-nage."
+        p2: "It's popularity in judo and sumo is possibly explained due to the historical fact that Japanese always carried big loads on their shoulders and backs, from sacks of rice and bundles of wood to emperors and shogunates in their royal carriages."
+        p3: "This throw is traditionally the favorite of the little man. However, in these days of weight divisions men of any size can use it. The advantage of this throw for a smaller man is that once he is in position even though outweighed by two or three stone it is still possible to carry it through against resistance."
     poster:
       title: "Revolution Tour Poster"
-      intro: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
-      p1: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      intro: 'This is the official poster created for the "Everything You Should Know About Seoi Nage" DVD tour aptly named "The Revolution Tour."'
+      p1: "During the tour Israel Hernandez and Valerie Gotay visited many cities across the nation and stopped at 8 judo clubs, giving clinics and promoting the release of their sweeping and revolutionary DVD."
+      p2: "Limited quantities printed.  When they're gone, they're gone!"
+      p3: "Buy yours today and have it autographed for free."
   services:
     bold_intro: "IsVael Sport runs compelling camps and clinics for your organization."
     intro: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."

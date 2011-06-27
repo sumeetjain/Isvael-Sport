@@ -11,6 +11,23 @@
 		<p><%=t 'products.dvd.p1' %></p>
 		<p><%=t 'products.dvd.p2' %></p>
 		
+		<h3><%=t 'products.dvd.material_covered.title' %></h3>
+		
+		<ul>
+			<% I18n.t('products.dvd.material_covered.list').each_with_index do |item, index| %>
+				<li><%=t "products.dvd.material_covered.list.item#{index}" %></li>
+			<% end %>
+		</ul>
+		
+		<p class="buyNow"><%= link_to image_tag('global/buyNow.gif', :alt => 'Buy Now'), "#" %></p>
+		
+		<h3><%=t 'products.dvd.seoi_history.title' %></h3>
+
+		<p><%=t 'products.dvd.seoi_history.p0' %></p>
+		<p><%=t 'products.dvd.seoi_history.p1' %></p>
+		<p><%=t 'products.dvd.seoi_history.p2' %></p>
+		<p><%=t 'products.dvd.seoi_history.p3' %></p>
+		
 		<p class="buyNow"><%= link_to image_tag('global/buyNow.gif', :alt => 'Buy Now'), "#" %></p>
 	</div>
 
@@ -23,6 +40,8 @@
 		<p><%= image_tag('products/poster.jpg', :alt => 'Poster', :class => 'productPhoto') %></p>
 
 		<p><%=t 'products.poster.p1' %></p>
+		<p><%=t 'products.poster.p2' %></p>
+		<p><%=t 'products.poster.p3' %></p>
 		
 		<p class="buyNow"><%= link_to image_tag('global/buyNow.gif', :alt => 'Buy Now'), "#" %></p>
 	</div>
