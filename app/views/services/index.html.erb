@@ -1,2 +1,44 @@
-<h1>Services#index</h1>
-<p>Find me in app/views/services/index.html.erb</p>
+<div class="container">
+	<h1><%=t 'nav.services' %></h1>
+	
+	<p><strong><%=t 'services.bold_intro' %></strong> <%=t 'services.intro' %></p>
+</div>
+
+<div id="camps">
+	<div class="container">
+		<h2><%=t 'services.camps.title' %></h2>
+
+		<p><strong><%=t 'services.camps.intro' %></strong></p>
+		<p><%=t 'services.camps.p0' %></p>
+	</div>
+	
+	<div class="announcement">
+		<div class="heading"><%=t 'services.camps.upcoming.heading' %></div>
+		<h3><a href="#"><%=t 'services.camps.upcoming.title' %></a></h3>
+		<a href="#"><%=t 'homepage.announcement.more' %></a>
+
+		<div class="snLinks">
+			<%= link_to image_tag('global/twitter.png', :alt => "Twitter"), "http://twitter.com/isvaelsport", :class => 'snLink' %>
+			<%= link_to image_tag('global/facebook.png', :alt => "Facebook"), "http://facebook.com/isvaelsport", :class => 'snLink' %>
+		</div>
+	</div>
+	
+	<div class="container">
+		<p><iframe width="640" height="390" src="http://www.youtube.com/embed/QNAcoHudrQw?rel=0" frameborder="0" allowfullscreen></iframe></p>
+		
+		<p><%=t 'services.camps.p1' %></p>
+	</div>
+</div>
+
+<div id="clinics">
+	<div class="container">
+		<h2><%=t 'services.clinics.title' %></h2>
+
+		<p><strong><%=t 'services.clinics.intro' %></strong></p>
+		
+		<p><iframe width="640" height="390" src="http://www.youtube.com/embed/JMQAVVHqn0I?rel=0" frameborder="0" allowfullscreen></iframe></p>
+		
+		<p><%=t 'services.clinics.p0' %></p>
+		<p><%=t 'services.clinics.p1' %></p>
+	</div>
+</div>
