@@ -1,4 +1,7 @@
 Isvael::Application.routes.draw do
+	resources :contacts
+	match "contact" => "contacts#new"
+
   match "about" => 'about#index'
   get "about/valerie_gotay"
   get "about/israel_hernandez"
