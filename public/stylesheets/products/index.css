@@ -1,0 +1,15 @@
+h2{
+	margin-top: 0;
+}
+
+.column1, .column2{
+	width: 375px;
+}
+.column1{
+	margin-right: 75px;
+}
+
+p.buyNow{
+	padding-top: 10px;
+	text-align: center;
+}

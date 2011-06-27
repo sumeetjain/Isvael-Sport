@@ -1,2 +1,28 @@
-<h1>Products#index</h1>
-<p>Find me in app/views/products/index.html.erb</p>
+<div class="container">
+	<h1><%=t 'nav.products' %></h1>
+
+	<div class="column1">
+		<!-- <h2><a href="/products/dvd"><%=t 'products.dvd.title' %> &raquo;</a></h2> -->
+		<h2><%=t 'products.dvd.title' %></h2>
+		<p><strong><%=t 'products.dvd.intro' %></strong></p>
+		
+		<p><iframe width="360" height="205" src="http://www.youtube.com/embed/IvFB37wFgrM?rel=0" frameborder="0" allowfullscreen></iframe></p>
+
+		<p><%=t 'products.dvd.p1' %></p>
+		<p><%=t 'products.dvd.p2' %></p>
+		
+		<p class="buyNow"><%= link_to image_tag('global/buyNow.gif', :alt => 'Buy Now'), "#" %></p>
+	</div>
+
+	<div class="column2">
+		<!-- <h2><a href="/products/poster"><%=t 'products.poster.title' %> &raquo;</a></h2> -->
+		<h2><%=t 'products.poster.title' %></h2>
+		<p><strong><%=t 'products.poster.intro' %></strong></p> 
+		
+		<p><a href="/products/poster"><%= image_tag('products/poster.jpg', :alt => 'Poster', :class => 'productPhoto') %></a></p>
+
+		<p><%=t 'products.poster.p1' %></p>
+		
+		<p class="buyNow"><%= link_to image_tag('global/buyNow.gif', :alt => 'Buy Now'), "#" %></p>
+	</div>
+</div>
