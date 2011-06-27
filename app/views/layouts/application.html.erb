@@ -51,7 +51,7 @@
 				<li class=""><a href="#"><%=t 'nav.events' %></a></li>
 				<li class=""><a href="#"><%=t 'nav.news' %></a></li>
 				<li class=""><a href="#"><%=t 'nav.gallery' %></a></li>
-				<li class=""><a href="/contact"><%=t 'nav.contact' %></a></li>
+				<li class="<%= "current" if "#{controller.controller_name}" == "contacts" %>"><a href="/contact"><%=t 'nav.contact' %></a></li>
 				<li id="lingoLink" class="">
 					<% if I18n.locale.to_s == 'es' %>
 						<a href="http://isvael.heroku.com">In English</a>
