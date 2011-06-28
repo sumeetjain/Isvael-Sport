@@ -1,8 +1,8 @@
 .column1, .column2{
-	width: 375px;
+	width: 400px;
 }
-.column1{
-	margin-right: 75px;
+.column2{
+	float: right;
 }
 
 .coachPhoto{
