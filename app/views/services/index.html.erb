@@ -1,21 +1,35 @@
 <div class="container">
 	<h1><%=t 'nav.services' %></h1>
 	
-	<p><strong><%=t 'services.bold_intro' %></strong> <%=t 'services.intro' %></p>
+	<p><%=t 'services.intro' %></p>
+</div>
+
+<div id="clinics">
+	<div class="container">
+		<h2><%=t 'services.clinics.title' %></h2>
+		
+		<p><strong><%=t 'services.clinics.contact0' %> <a href="/contact"><%=t 'services.clinics.contact1' %></a></strong></p>
+		
+		<p><iframe width="640" height="390" src="http://www.youtube.com/embed/JMQAVVHqn0I?rel=0" frameborder="0" allowfullscreen></iframe></p>
+		
+		<% I18n.t('services.clinics.faq').each_with_index do |item, index| %>
+			<h3><%=t "services.clinics.faq.item#{index}.q" %></h3>
+			<p><%=t "services.clinics.faq.item#{index}.a" %></p>
+		<% end %>
+	</div>
 </div>
 
 <div id="camps">
 	<div class="container">
 		<h2><%=t 'services.camps.title' %></h2>
-
-		<p><strong><%=t 'services.camps.intro' %></strong></p>
-		<p><%=t 'services.camps.p0' %></p>
+		
+		<p><strong><%=t 'services.camps.contact0' %> <a href="mailto:info@judoamerica.com">info@judoamerica.com</a></strong></p>
 	</div>
 	
 	<div class="announcement">
 		<div class="heading"><%=t 'services.camps.upcoming.heading' %></div>
-		<h3><a href="#"><%=t 'services.camps.upcoming.title' %></a></h3>
-		<a href="#"><%=t 'homepage.announcement.more' %></a>
+		<h3><a href="/files/2011_camp_olympus.pdf"><%=t 'services.camps.upcoming.title' %> &raquo;</a></h3>
+		<a href="/files/2011_camp_olympus.pdf"><%=t 'services.camps.upcoming.more' %></a>
 
 		<div class="snLinks">
 			<%= link_to image_tag('global/twitter.png', :alt => "Twitter"), "http://twitter.com/isvaelsport", :class => 'snLink' %>
@@ -26,19 +40,12 @@
 	<div class="container">
 		<p><iframe width="640" height="390" src="http://www.youtube.com/embed/QNAcoHudrQw?rel=0" frameborder="0" allowfullscreen></iframe></p>
 		
-		<p><%=t 'services.camps.p1' %></p>
-	</div>
-</div>
+		<h3><%=t 'services.camps.details.title' %></h3>
 
-<div id="clinics">
-	<div class="container">
-		<h2><%=t 'services.clinics.title' %></h2>
-
-		<p><strong><%=t 'services.clinics.intro' %></strong></p>
-		
-		<p><iframe width="640" height="390" src="http://www.youtube.com/embed/JMQAVVHqn0I?rel=0" frameborder="0" allowfullscreen></iframe></p>
-		
-		<p><%=t 'services.clinics.p0' %></p>
-		<p><%=t 'services.clinics.p1' %></p>
+		<ul>
+			<% I18n.t('services.camps.details.items').each_with_index do |item, index| %>
+				<li><%=t "services.camps.details.items.item#{index}" %></li>
+			<% end %>
+		</ul>
 	</div>
 </div>

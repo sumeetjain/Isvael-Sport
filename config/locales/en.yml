@@ -92,21 +92,47 @@ en:
       p2: "Limited quantities printed.  When they're gone, they're gone!"
       p3: "Buy yours today and have it autographed for free."
   services:
-    bold_intro: "IsVael Sport runs compelling camps and clinics for your organization."
-    intro: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+    intro: "We are available for clinics and training camps for judo, jiu jitsu, and MMA and martial arts schools around the country."
     camps:
       title: "Camps"
-      intro: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      contact0: "If you would like more information about our camps, get in touch with us via phone (951-699-8969) or email"
       upcoming:
-        heading: "Upcoming Camp!"
-        title: "Camp Olympus is in August 2011. Sign up now!"
-      p0: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-      p1: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        heading: "Upcoming Camp - San Diego, CA"
+        title: "Camp Olympus is in August 2011! Download flyer and registration form"
+        more: "Download [PDF - 311KB]"
+      details:
+        title: "This is what you get at Camp Olympus"
+        items:
+          item0: "Proper/dynamic warm-ups"
+          item1: "Goal setting"
+          item2: "Acrobatics for Judo"
+          item3: "Defenses & counters"
+          item4: "Develop an inventory of Judo skills"
+          item5: "Functional gripping"
+          item6: "Simple & complex combinations"
+          item7: "Introduction to competitive tactics"
+          item8: "Strength & conditioning"
+          item9: "Combative games"
     clinics:
       title: "Clinics"
-      intro: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-      p0: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-      p1: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      contact0: "If you would like to schedule a clinic, get in touch with us via phone (951-699-8969) or"
+      contact1: "email us."
+      faq:
+        item0:
+          q: "Why should I choose IsVael Sport?"
+          a: "Most clinicians resort to a standard presentation based on their personal repertoire. We are unique in that you choose your topic or area of concern. We are not limited to certain topics, and we can fit your preference. "
+        item1:
+          q: "What topics do you cover in your clinics?"
+          a: "A topic could be anything you choose, but some ideas are as follows: Any one technique, defense and counters, transitions, combinations, turnovers, no gi takedowns, strength training for the combative athlete, and functional gripping, or any other topic of choice."
+        item2:
+          q: "Can you give clinics outside the US?"
+          a: "Yes.  We have traveled to Mexico, Puerto Rico and Ecuador, in addition to clubs around the United States."
+        item3:
+          q: "Do you give clinics for kids as well as adults?"
+          a: "Yes, but we prefer that kids be at an intermediate level."
+        item4:
+          q: "What's the difference between a clinic and a training camp?"
+          a: "A clinic is usually a one to two day event covering a very specific area, such as the topics mentioned above. A training camp can be anywhere from 3-7 days long and is a combination of technical instruction and training. Training modalities could include drills, strength and conditioning, randori, and competition."
   contact:
     title: "We'd love to hear from you."
     intro: "Use the form below to send us an email."
