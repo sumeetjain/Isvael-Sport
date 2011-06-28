@@ -1,4 +1,6 @@
 Isvael::Application.routes.draw do
+  resources :events
+
 	resources :contacts
 	match "contact" => "contacts#new"
 

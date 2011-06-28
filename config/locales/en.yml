@@ -136,3 +136,6 @@ en:
   contact:
     title: "We'd love to hear from you."
     intro: "Use the form below to send us an email."
+  events:
+    title_2011: "2011 Calendar"
+    more: "More information"

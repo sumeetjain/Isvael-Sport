@@ -1,0 +1,49 @@
+<%= form_for(@event) do |f| %>
+  <% if @event.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@event.errors.count, "error") %> prohibited this event from being saved:</h2>
+
+      <ul>
+      <% @event.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :en_title, "Title in English" %><br />
+    <%= f.text_field :en_title %>
+  </div>
+  <div class="field">
+    <%= f.label :es_title, "Title in Spanish" %><br />
+    <%= f.text_field :es_title %>
+  </div>
+  <div class="field">
+    <%= f.label :en_description, "Description in English (optional)" %><br />
+    <%= f.text_area :en_description %>
+  </div>
+  <div class="field">
+    <%= f.label :es_description, "Description in Spanish (optional)" %><br />
+    <%= f.text_area :es_description %>
+  </div>
+  <div class="field">
+    <%= f.label :link, "Link to Event Details (optional)" %><br />
+    <%= f.text_field :link, :placeholder => 'http://' %>
+  </div>
+  <div class="field">
+    <%= f.label :start_date %><br />
+    <%= f.date_select :start_date %>
+  </div>
+  <div class="field">
+    <%= f.label :end_date %><br />
+    <%= f.date_select :end_date %>
+  </div>
+  <div class="field">
+    <%= f.label :location %><br />
+    <%= f.text_field :location %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

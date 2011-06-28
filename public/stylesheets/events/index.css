@@ -1,0 +1,21 @@
+.event{
+	padding-bottom: 15px;
+	margin-bottom: 15px;
+	border-bottom: 1px solid #ccc;
+}
+h3{
+	margin: 0;
+}
+.info{
+	font-size: 12px;
+	margin: 20px 0 2px;
+}
+.description{
+	margin: 0;
+	font-size: 12px;
+}
+.more{
+	font-size: 12px;
+	text-transform: lowercase;
+	margin: 0 0 7px;
+}

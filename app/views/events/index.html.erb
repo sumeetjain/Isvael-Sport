@@ -1,0 +1,23 @@
+<div class="container">
+	<h1><%=t 'nav.events' %></h1>
+	
+	<h2><%=t 'events.title_2011' %></h2>
+	
+	<% @events.each do |event| %>
+		<div class="event">
+			<p class="info">
+				<strong><%= event.start_date.strftime("%B %d") %><%= " - #{event.end_date.strftime("%B %d")}" unless event.end_date == event.start_date %></strong> 
+				in <strong><%= event.location %></strong>
+			</p>
+			
+			<h3><%= I18n.locale.to_s == 'es' ? event.es_title : event.en_title %></h3>
+			<% unless event.link.blank? %>
+				<p class="more"><%= link_to "#{I18n.t('events.more')}", event.link %></p>
+			<% end %>
+
+			<% unless event.en_description.blank? %>
+				<p class="description"><%= I18n.locale.to_s == 'es' ? event.es_description : event.en_description %></p>
+			<% end %>
+		</div>		
+	<% end %>
+</div>
