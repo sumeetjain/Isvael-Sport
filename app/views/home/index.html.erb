@@ -3,17 +3,17 @@
 	<h2><%=t 'homepage.h2' %></h2>
 	
 	<div id="featured" class="clearfix">
-		<a class="feature" href="#">
+		<a class="feature" href="/services">
 			<%= image_tag('home/clinics.jpg', :alt => '') %> 
 			<span class="highlighted"><%=t 'homepage.features.clinics' %></span>
 		</a>
 		
-		<a class="feature" id="middleFeature" href="#">
+		<a class="feature" id="middleFeature" href="/about">
 			<%= image_tag('home/coaches.jpg', :alt => '') %> 
 			<span class="highlighted"><%=t 'homepage.features.instruction' %></span>
 		</a>
 		
-		<a class="feature" href="#">
+		<a class="feature" href="/events">
 			<%= image_tag('home/coaches.jpg', :alt => '') %> 
 			<span class="highlighted"><%=t 'homepage.features.event' %></span>
 		</a>
@@ -21,9 +21,9 @@
 </div>
 
 <div class="announcement">
-	<div class="heading"><%=t 'homepage.announcement.heading' %>: 7/4/2011</div>
-	<h3><a href="#">Join us at Mission Beach for a day of a Judo games in the sun!</a></h3>
-	<a href="#"><%=t 'homepage.announcement.more' %></a>
+	<div class="heading"><%=t 'homepage.announcement.heading' %>: <%= @post.updated_at.strftime("%m/%d/%y") %></div>
+	<h3><%= link_to I18n.locale.to_s == 'es' ? @post.title_es : @post.title_en, "/news" %></h3>
+	<a href="/news"><%=t 'homepage.announcement.more' %></a>
 	
 	<div class="snLinks">
 		<%= link_to image_tag('global/twitter.png', :alt => "Twitter"), "http://twitter.com/isvaelsport", :class => 'snLink' %>
