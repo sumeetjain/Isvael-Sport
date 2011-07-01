@@ -5,7 +5,7 @@ class GalleryController < ApplicationController
 
   def view
 		@set = flickr.photosets.getInfo(:photoset_id => params[:set])
-		@photos = flickr.photosets.getPhotos(:photoset_id => params[:set], :extras => 'url_t, url_l')
+		@photos = flickr.photosets.getPhotos(:photoset_id => params[:set], :extras => 'url_t, url_l, url_o')
   end
 
 end

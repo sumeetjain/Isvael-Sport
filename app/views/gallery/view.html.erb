@@ -4,7 +4,7 @@
 	
 	<div id="photos">
 		<% @photos.photo.each do |photo| %>
-			<%= link_to image_tag(photo.url_t, :alt => ''), photo.url_l, :rel => 'shadowbox[Gallery]' %>
+				<%= link_to image_tag(photo.url_t, :alt => ''), photo.url_o, :rel => 'shadowbox[Gallery]' %>
 		<% end %>
 	</div>
 </div>
