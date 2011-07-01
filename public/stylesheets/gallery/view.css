@@ -1,0 +1,11 @@
+#backlink{
+	text-transform: uppercase;
+	color: #666;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+#photos img{
+	border: 1px solid #666;
+	margin: 0 8px 8px 0;
+}

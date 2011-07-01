@@ -20,6 +20,7 @@
 	<%= stylesheet_link_tag 'global' %>
 	<%#= stylesheet_link_tag 'jquery-ui' %>
 	<%#= stylesheet_link_tag 'tipsy' %>
+	<%= stylesheet_link_tag 'shadowbox' %>
 	<%= stylesheet_link_tag "#{controller.controller_name}/#{controller.action_name}" %>
 
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
@@ -50,7 +51,7 @@
 				<li class="<%= "current" if "#{controller.controller_name}" == "services" %>"><a href="/services"><%=t 'nav.services' %></a></li>
 				<li class="<%= "current" if "#{controller.controller_name}" == "events" %>"><a href="/events"><%=t 'nav.events' %></a></li>
 				<li class="<%= "current" if "#{controller.controller_name}" == "posts" %>"><a href="/news"><%=t 'nav.news' %></a></li>
-				<li class=""><a href="#"><%=t 'nav.gallery' %></a></li>
+				<li class="<%= "current" if "#{controller.controller_name}" == "gallery" %>"><a href="/gallery"><%=t 'nav.gallery' %></a></li>
 				<li class="<%= "current" if "#{controller.controller_name}" == "contacts" %>"><a href="/contact"><%=t 'nav.contact' %></a></li>
 				<li id="lingoLink" class="">
 					<% if I18n.locale.to_s == 'es' %>
@@ -79,7 +80,12 @@
 	</section>
 
 	<%#= javascript_include_tag 'jquery.tipsy' %>
+	<%= javascript_include_tag 'shadowbox' %>
 	<%= javascript_include_tag 'global' %>
 	<%= javascript_include_tag "#{controller.controller_name}/#{controller.action_name}" %>
+	
+	<script type="text/javascript">
+	Shadowbox.init();
+	</script>
 </body>
 </html>

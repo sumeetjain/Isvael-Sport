@@ -1,0 +1,7 @@
+<div class="container">
+	<h1><%=t 'nav.gallery' %></h1>
+	
+	<% @sets.each do |set| %>
+		<h2><%= link_to "#{set.title}", :action => 'view', :set => set.id %></h2>
+	<% end %>
+</div>

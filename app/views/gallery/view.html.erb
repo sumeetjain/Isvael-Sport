@@ -1,0 +1,10 @@
+<div class="container">
+	<a id="backlink" href="/gallery">&laquo; Back to Gallery</a>
+	<h1><%= flickr.photosets.getInfo(:photoset_id => params[:set]).title %></h1>
+	
+	<div id="photos">
+		<% @photos.photo.each do |photo| %>
+			<%= link_to image_tag(photo.url_t, :alt => ''), photo.url_l, :rel => 'shadowbox[Gallery]' %>
+		<% end %>
+	</div>
+</div>

@@ -1,4 +1,8 @@
 Isvael::Application.routes.draw do
+	match "gallery/view/:set" => 'gallery#view'
+	match "gallery" => 'gallery#index'
+  get "gallery/index"
+
   resources :posts
 	match "news" => 'posts#index'
 	match "news/new" => 'posts#new'
