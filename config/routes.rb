@@ -1,4 +1,9 @@
 Isvael::Application.routes.draw do
+  resources :posts
+	match "news" => 'posts#index'
+	match "news/new" => 'posts#new'
+	match 'news/:id/edit' => 'posts#edit'
+
   resources :events
 
 	resources :contacts

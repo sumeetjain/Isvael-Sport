@@ -1,0 +1,12 @@
+<div class="container">
+	<h1><%=t 'nav.news' %></h1>
+	
+	<% @posts.each do |post| %>
+		<div class="post">			
+			<h2><%= I18n.locale.to_s == 'es' ? post.title_es : post.title_en %></h2>
+			<p class="info"><%= post.updated_at.strftime("%B %d") %></p>
+
+			<div class="description"><%=raw I18n.locale.to_s == 'es' ? post.body_es.to_html : post.body_en.to_html %></div>
+		</div>		
+	<% end %>
+</div>
