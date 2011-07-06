@@ -1,4 +1,7 @@
 Isvael::Application.routes.draw do
+	match "/thanks" => 'home#thanks'
+	match "/canceled" => 'home#canceled'
+	
 	match "gallery/view/:set" => 'gallery#view'
 	match "gallery" => 'gallery#index'
   get "gallery/index"

@@ -141,3 +141,9 @@ en:
   events:
     title_2011: "2011 Calendar"
     more: "More information"
+  thanks:
+    title: "Your purchase is completed."
+    text: "Thank you for your order. We'll ship that out to you right away."
+  canceled:
+    title: "Your order was canceled."
+    text: "Per your request, we have canceled your order. You were not charged. If you have any questions, please let us know."

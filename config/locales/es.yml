@@ -61,7 +61,7 @@ es:
   israel:
     video1: "Israel winning the Bronze Medal at the 1992 Olympics"
     video2: "Trailer for our instructional DVD"
-    dvd_info: "For more details about our instructional DVD or to place an order, click here."
+    dvd_info: "For more details about our instructional DVD, click here."
   products:
     dvd:
       title: "Everything You Should Know About Seoi Nage DVD"
@@ -141,3 +141,9 @@ es:
   events:
     title_2011: "2011 Calendar"
     more: "More information"
+  thanks:
+    title: "Your purchase is completed."
+    text: "Thank you for your order. We'll ship that out to you right away."
+  canceled:
+    title: "Your order was canceled."
+    text: "Per your request, we have canceled your order. You were not charged. If you have any questions, please let us know."
