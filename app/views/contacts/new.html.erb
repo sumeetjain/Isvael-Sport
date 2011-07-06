@@ -1,7 +1,7 @@
 <div class="container">
-	<h1><%=t 'contact.title' %></h1>
+	<h1><%=t params['buy'] ? 'contact.buy' : 'contact.title' %></h1>
 
-	<p><%=t 'contact.intro' %></p>
+	<p><%=t params['buy'] ? 'contact.buy_detail' : 'contact.intro' %></p>
 
 	<%= form_for @contact do |f| %>
 		<% if @contact.errors.any? %>

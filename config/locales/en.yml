@@ -135,6 +135,8 @@ en:
           a: "A clinic is usually a one to two day event covering a very specific area, such as the topics mentioned above. A training camp can be anywhere from 3-7 days long and is a combination of technical instruction and training. Training modalities could include drills, strength and conditioning, randori, and competition."
   contact:
     title: "We'd love to hear from you."
+    buy: "Order Form"
+    buy_detail: "We are working on an easier way to facilitate buying our DVD and poster. In the meantime, please use the form below to let us know about your interest in purchasing our products."
     intro: "Use the form below to send us an email."
   events:
     title_2011: "2011 Calendar"
