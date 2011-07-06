@@ -19,7 +19,11 @@
 			<% end %>
 		</ul>
 		
-		<p class="buyNow"><%= link_to image_tag('global/buyNow.gif', :alt => 'Buy Now'), "/contact?buy=true" %></p>
+		<form action="https://www.paypal.com/cgi-bin/webscr" method="post" class="buyNow">
+			<input type="hidden" name="cmd" value="_s-xclick">
+			<input type="hidden" name="hosted_button_id" value="44RRW76W8TDWL">
+			<input type="image" src="https://www.paypal.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+		</form>
 		
 		<h3><%=t 'products.dvd.seoi_history.title' %></h3>
 
@@ -28,7 +32,11 @@
 		<p><%=t 'products.dvd.seoi_history.p2' %></p>
 		<p><%=t 'products.dvd.seoi_history.p3' %></p>
 		
-		<p class="buyNow"><%= link_to image_tag('global/buyNow.gif', :alt => 'Buy Now'), "/contact?buy=true" %></p>
+		<form action="https://www.paypal.com/cgi-bin/webscr" method="post" class="buyNow">
+			<input type="hidden" name="cmd" value="_s-xclick">
+			<input type="hidden" name="hosted_button_id" value="44RRW76W8TDWL">
+			<input type="image" src="https://www.paypal.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+		</form>
 	</div>
 
 	<div class="column2">
@@ -43,6 +51,10 @@
 		<p><%=t 'products.poster.p2' %></p>
 		<p><%=t 'products.poster.p3' %></p>
 		
-		<p class="buyNow"><%= link_to image_tag('global/buyNow.gif', :alt => 'Buy Now'), "/contact?buy=true" %></p>
+		<form action="https://www.paypal.com/cgi-bin/webscr" method="post" class="buyNow">
+			<input type="hidden" name="cmd" value="_s-xclick">
+			<input type="hidden" name="hosted_button_id" value="333HEP2RVKFZN">
+			<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+		</form>
 	</div>
 </div>

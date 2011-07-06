@@ -38,12 +38,17 @@
 		<iframe width="560" height="349" src="http://www.youtube.com/embed/IvFB37wFgrM?rel=0" frameborder="0" allowfullscreen></iframe>
 	</div>
 	
-	<a id="poster" href="/contact?buy=true">
-		<span class="highlighted"><%=t 'homepage.dvd' %></span>
-		<%= image_tag('home/dvd.png', :alt => '') %>
-		
+	<div id="poster">
+		<a href="/products">
+			<span class="highlighted"><%=t 'homepage.dvd' %></span>
+			<%= image_tag('home/dvd.png', :alt => '') %>
+		</a>
 		<div id="paypalButton">
-			<%= image_tag('global/buyNow.gif', :alt => 'Buy Now') %>
+			<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+				<input type="hidden" name="cmd" value="_s-xclick">
+				<input type="hidden" name="hosted_button_id" value="44RRW76W8TDWL">
+				<input type="image" src="https://www.paypal.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+			</form>
 		</div>
-	</a>
+	</div>
 </div>
