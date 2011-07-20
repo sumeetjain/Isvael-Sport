@@ -3,6 +3,6 @@ class UserMailer < ActionMailer::Base
  
 	def contact_email(visitor)
 		@visitor = visitor
-		mail(:to => "isvael@sumeetjain.com", :from => visitor.email, :subject => "IsVael Sport [#{visitor.email}]")
+		mail(:to => "val@isvael.com", :from => visitor.email, :subject => "IsVael Sport [#{visitor.email}]")
 	end
 end
