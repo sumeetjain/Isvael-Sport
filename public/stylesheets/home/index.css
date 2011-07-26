@@ -1,3 +1,11 @@
+h1{
+	float: right;
+	width: 650px;
+	font-size: 35px;
+	margin-bottom: 5px;
+	padding: 0;
+}
+
 span.highlighted{
 	text-transform: uppercase;
 	color: #fff;
