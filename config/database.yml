@@ -37,3 +37,31 @@ production:
   username: root
   password:
   socket: /tmp/mysql.sock
+
+
+################################################
+# If you're not using MySQL, read on:
+# Developers on Windows might prefer to use SQLite.
+# If that's you, comment out the stuff above
+# (by adding a # before each line).
+# And then uncomment the stuff below
+# (by removing the # before each line).
+################################################
+
+# development:
+#   adapter: sqlite3
+#   database: db/development.sqlite3
+#   pool: 5
+#   timeout: 5000
+# 
+# test:
+#   adapter: sqlite3
+#   database: db/test.sqlite3
+#   pool: 5
+#   timeout: 5000
+# 
+# production:
+#   adapter: sqlite3
+#   database: db/production.sqlite3
+#   pool: 5
+#   timeout: 5000
